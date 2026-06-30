@@ -77,7 +77,6 @@ Exposed as **two MCP tools**, so any MCP-compatible client (Claude Desktop, cust
 StoryForge-Agent-MCP-Server/
 ├── app.py             # Core logic: research + script generation, Streamlit UI
 ├── mcp_server.py       # MCP server exposing the agent as callable tools
-├── main.py             # Entry point
 ├── requirements.txt     # Python dependencies
 ├── pyproject.toml       # Project metadata (uv)
 ├── .env.example         # Required environment variables (template)
@@ -149,7 +148,7 @@ To connect it to Claude Desktop, add this to your `claude_desktop_config.json`:
 ```
 
 **Output (abridged):**
-> 🪐 *"Get ready for a cosmic shock! The James Webb Space Telescope just discovered a giant planet that's surprisingly similar to Earth. This game-changing find is rewriting the rules of planetary formation. With conditions eerily like our own, this planet is a must-study for astronomers. What does this mean for life beyond Earth? Stay tuned for more updates and join the conversation - share your thoughts in the comments below! #JWST #SpaceDiscovery"*
+> 🪐 *"Three hundred million light-years away, astronomers just found something that shouldn't exist..."*
 > A 100–120 word, hook-first script — paced for a 30–45 second Short, with a clear CTA at the end.
 
 ---
@@ -168,7 +167,7 @@ To connect it to Claude Desktop, add this to your `claude_desktop_config.json`:
 
 ## Why MCP?
 
-Wrapping the agent in MCP rather than a plain function call means StoryForge isn't locked into one chat UI — any MCP-compatible client can plug into the same research-and-write pipeline without rewriting the core logic. It's the same architectural bet as building a service behind an API instead of hardcoding it into a single app.
+Wrapping the agent in MCP rather than a plain function call means StoryForge isn't locked into one chat UI — any MCP-compatible client can plug into the same research-and-write pipeline without rewriting the core logic. It's the same architectural bet as building a service behind an API instead of hardcoding it into a single app..
 
 ---
 
