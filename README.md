@@ -149,7 +149,7 @@ To connect it to Claude Desktop, add this to your `claude_desktop_config.json`:
 ```
 
 **Output (abridged):**
-> 🪐 *"Three hundred million light-years away, astronomers just found something that shouldn't exist..."*
+> 🪐 *"Get ready for a cosmic shock! The James Webb Space Telescope just discovered a giant planet that's surprisingly similar to Earth. This game-changing find is rewriting the rules of planetary formation. With conditions eerily like our own, this planet is a must-study for astronomers. What does this mean for life beyond Earth? Stay tuned for more updates and join the conversation - share your thoughts in the comments below! #JWST #SpaceDiscovery"*
 > A 100–120 word, hook-first script — paced for a 30–45 second Short, with a clear CTA at the end.
 
 ---
